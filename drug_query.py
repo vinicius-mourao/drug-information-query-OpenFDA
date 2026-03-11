@@ -1,3 +1,4 @@
+# import necessary libraries and define constants for text formatting
 import requests
 BOLD = '\033[1m'
 RESET = '\033[0m'
@@ -84,4 +85,5 @@ def main():
             print("Error occurred while parsing drug information.")
         
 
+# Run the main function when the script is executed
 main()
